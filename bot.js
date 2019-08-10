@@ -470,4 +470,4 @@ client.on('guildBanAdd' , (guild, user) => {
   modlog.send('https://media.giphy.com/media/8njotXALXXNrW/giphy.gif **Adalet dağıtma zamanı gelmiş!**           '+ user.username +'**Bakıyorumda Yasaklanan Kişi Bir Daha Yapmayacak Gibi Ama Suçunun Cezasını Çekmeli** :fist: :writing_hand:  :spy:' );
 
 });
-client.login('bot_token');
+client.login(process.env.bot_token);
